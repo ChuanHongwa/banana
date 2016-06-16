@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="source/jquery.fancybox.css">
+    <style>
+        img {
+            width: 200px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="source/jquery.fancybox.pack.js"></script>
+    <script src="source/helpers/jquery.fancybox-media.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".fancy").fancybox({
+                padding: 10,
+                helpers:{
+                    title:{
+                        type:"inside",
+                    }
+                }
+            });
+            $(".media").fancybox({
+                helpers:{
+                    media:{}
+                }
+            });
+        });
+    </script>
+    
+</head>
+<body>
+    <a href="images/%E5%8A%9F%E5%A4%AB%E7%86%8A%E8%B2%9301.png" class="fancy" rel="photo1" title="功夫熊貓3">
+        <img src="images/%E5%8A%9F%E5%A4%AB%E7%86%8A%E8%B2%9301.png" alt="">
+    </a>
+    <a href="images/view01.png" class="fancy" rel="photo1" title="巴黎鐵塔">
+        <img src="images/view01.png" alt="">
+    </a>
+    <a href="images/view02.png" class="fancy" rel="photo1" title="富士山">
+        <img src="images/view02.png" alt="">
+    </a>
+    <a href="images/view03.png" class="fancy" rel="photo" title="藍天美景">
+        <img src="images/view03.png" alt="">
+    </a>
+    <a href="images/view04.png" class="fancy" rel="photo" title="夜空">
+        <img src="images/view04.png" alt="">
+    </a>
+<!--
+    <a href="http://lorempicsum.com/up/700/400/6">
+        <img src="http://lorempicsum.com/up/350/200/6" alt="">
+    </a>
+-->
+    <a href="https://www.youtube.com/watch?v=DK_0jXPuIr0" class="media">Justin Bieber</a>
+    
+    <img src="http://img.youtube.com/vi/DK_0jXPuIr0/0.jpg" alt="">
+    <img src="http://img.youtube.com/vi/DK_0jXPuIr0/1.jpg" alt="">
+    <img src="http://img.youtube.com/vi/DK_0jXPuIr0/2.jpg" alt="">
+    <img src="http://img.youtube.com/vi/DK_0jXPuIr0/3.jpg" alt="">
+    <img src="http://img.youtube.com/vi/DK_0jXPuIr0/default.jpg" alt="">
+    <img src="http://img.youtube.com/vi/DK_0jXPuIr0/mqdefault.jpg" alt="">
+    <img src="http://img.youtube.com/vi/DK_0jXPuIr0/hqdefault.jpg" alt="">
+    <img src="http://img.youtube.com/vi/DK_0jXPuIr0/sddefault.jpg" alt="">
+    <img src="http://img.youtube.com/vi/DK_0jXPuIr0/maxresdefault.jpg" alt="">
+    
+    <a href="https://www.youtube.com/watch?v=R4em3LKQCAQ" class="media"><img src="http://img.youtube.com/vi/R4em3LKQCAQ/default.jpg" alt=""></a>
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../pure-release-0.6.0/pure-min.css">
+    <link rel="stylesheet" href="source/jquery.fancybox.css">
+    <link rel="stylesheet" href="source/helpers/jquery.fancybox-thumbs.css">
+    <style>
+        html,body {
+            margin: 0;
+            padding: 0;
+        }
+        #nav {
+            background-color: #111;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #nav ul {
+            float: right;
+        }
+        #nav a {
+            color: #a0f; 
+        }
+        .container {
+/*            width: 960px;*/
+            min-width: 600px;
+            margin: auto;
+        }
+        .box {
+/*            (width = padding + margin + border)*/
+            width: 298px; 
+            box-sizing: border-box;
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid #333;
+            background-color: #aaa;
+        }
+        .box img {
+            width: 100%;
+        }
+    
+    </style>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="masonry.pkgd.min.js"></script>
+    <script src="imagesloaded.pkgd.min.js"></script>
+    <script src="source/jquery.fancybox.pack.js"></script>
+    <script src="source/helpers/jquery.fancybox-thumbs.js"></script>
+    <script src="source/helpers/jquery.fancybox-media.js"></script>
+    
+    <script>
+    $(document).ready(function(){
+        $(".container").imagesLoaded(function(){
+            $(".container").masonry({
+                isFitWidth:true
+            });
+        });
+        $(".fancy").fancybox({
+            padding:10,
+            helpers:{
+                title:{
+                    type:"inside"
+                },
+                thumbs:{
+                    width:50,
+                    height:50
+                }
+            }
+        });
+    });
+    
+    </script>
+    
+    
+</head>
+<body>
+   <div id="nav" class="pure-menu pure-menu-horizontal">
+       <a href="javascript:;" class="pure-menu-heading pure-menu-link">LOGO</a>
+       <ul class="pure-menu-list">
+           <li class="pure-menu-item"><a href="javascript:;" class="pure-menu-link">ABOUT</a></li>
+           <li class="pure-menu-item"><a href="javascript:;" class="pure-menu-link">MEN</a></li>
+           <li class="pure-menu-item"><a href="javascript:;" class="pure-menu-link">WOMEN</a></li>
+           
+       </ul>
+       
+   </div>
+    <div class="container">
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+           <a href="images/%E5%86%B0%E5%8E%9F%E6%AD%B7%E9%9A%AA%E8%A8%9801.png" class="fancy" rel="photo1" title="冰原歷險記">
+            <img src="images/%E5%86%B0%E5%8E%9F%E6%AD%B7%E9%9A%AA%E8%A8%9801.png" alt="">
+            </a>
+        </div>
+        <div class="box">
+            Lorem ipsscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit v sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit v sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit v sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat pedit fuga uga uga uga uga uga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus possimus possimus possimus possimus possimus possimus possimus possimus possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaert fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga necipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga necipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga necipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga necipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga necipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga necipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaquceat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaquceat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaquceat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        
+        <div class="box">
+           <a href="images/%E7%BE%8E%E5%9C%8B%E9%9A%8A%E9%95%B701.png" class="fancy" rel="photo1" title="美國隊長3">
+            <img src="images/%E7%BE%8E%E5%9C%8B%E9%9A%8A%E9%95%B701.png" alt="">
+            </a>
+        </div>
+        
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fufugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fufugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.t fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.t fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.t fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaqueat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaqueat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaqueat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaqueat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaqueat cumque quam sapiente impedit fuga nemo repudiandae itaqueat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaqueat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaqueat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaqueat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaqueat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas off temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+           <a href="images/%E5%B0%8F%E6%B5%A3%E7%86%8A04.png" class="fancy" rel="photo1" title="開心的小浣熊">
+            <img src="images/%E5%B0%8F%E6%B5%A3%E7%86%8A04.png" alt="">
+            </a>
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quapit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat cumque quaerat dolorum architecto illo, possimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repossimus rem suscipit voluptas officiis tempore temporibus ipsam sapiente impedit fuga nemo repudiandae itaque aliquam.
+        </div>
+        <div class="box">
+           <a href="images/%E7%BE%8E%E5%9C%8B%E9%9A%8A%E9%95%B701.png" class="fancy" rel="photo1" title="美國隊長3">
+            <img src="images/%E7%BE%8E%E5%9C%8B%E9%9A%8A%E9%95%B701.png" alt="">
+            </a>
+        </div>
+        <div class="box">
+           <a href="images/%E7%BE%8E%E5%9C%8B%E9%9A%8A%E9%95%B701.png" class="fancy" rel="photo1" title="美國隊長3">
+            <img src="images/%E7%BE%8E%E5%9C%8B%E9%9A%8A%E9%95%B701.png" alt="">
+            </a>
+        </div>
+        <div class="box">
+           <a href="images/%E7%BE%8E%E5%9C%8B%E9%9A%8A%E9%95%B701.png" class="fancy" rel="photo1" title="美國隊長3">
+            <img src="images/%E7%BE%8E%E5%9C%8B%E9%9A%8A%E9%95%B701.png" alt="">
+            </a>
+        </div>
+        <div class="box">
+           <a href="images/鐘點戰01.png" class="fancy" rel="photo1" title="鐘點戰">
+            <img src="images/鐘點戰01.png" alt="">
+            </a>
+        </div>
+        <div class="box">
+           <a href="images/分岐者01.png" class="fancy" rel="photo1" title="分岐者">
+            <img src="images/分岐者01.png" alt="">
+            </a>
+        </div>
+        <div class="box">
+           <a href="images/鐘點戰01.png" class="fancy" rel="photo1" title="鐘點戰">
+            <img src="images/鐘點戰01.png" alt="">
+            </a>
+        </div>
+        <div class="box">
+           <a href="images/分岐者01.png" class="fancy" rel="photo1" title="分岐者">
+            <img src="images/分岐者01.png" alt="">
+            </a>
+        </div>
+        
+    </div>
+    
+    
+    
+    
+</body>
+</html>
